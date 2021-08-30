@@ -23,7 +23,7 @@ Table of contents
 * [License](#license)
 
 
-Introduction
+⚡ Introduction
 ------------
 
 This repository consists of several java files, images and audio. Two of the java files are for server and the rest are for client. By downloading this repository and compiling the client and the server program, you will be able to play a racing game!
@@ -31,7 +31,7 @@ This repository consists of several java files, images and audio. Two of the jav
 ![screenshot](https://)
 
 
-Installation
+📖 Installation
 ------------
 
 You will need any version of java runtime environment and a java compiler. For example:
@@ -52,7 +52,7 @@ git clone https://gitlab.com/zagyarakushi/lgm-racing
 ```
 
 
-Usage
+📝 Usage
 -----
 
 Now go to the directory of the game and compile the client and server.
@@ -79,7 +79,7 @@ Run the client:
 java Client
 ```
 
-Known issues and limitations
+⭐ Known issues and limitations
 ----------------------------
 
 This project has many issues such as in game menu not working when pressing the escape key. There are parts of the code which is messy and not documented clearly. Some of the issues are shown in a table below.
@@ -90,19 +90,19 @@ This project has many issues such as in game menu not working when pressing the 
 | Missing setting options    |
 
 
-Getting help
+✌️ Getting help
 ------------
 
 You can create an issue and I will try to help you as much as I can.
 
 
-Contributing
+🔔 Contributing
 ------------
 
 First read the code of conduct and contributing file. Then you can fork the repository, add your own stuff and create a pull/merge request.
 
 
-License
+⚠ License
 -------
 
 MIT
