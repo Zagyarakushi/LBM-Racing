@@ -81,14 +81,13 @@ java Client
 ⭐ Known issues and limitations
 ----------------------------
 
-This project has many issues such as in game menu not working when pressing the escape key. There are parts of the code which is messy and not documented clearly. Some of the issues are shown in a table below.
+This project has many issues such as in game menu not working when pressing the escape key. There are parts of the code which is messy and not documented clearly. Some of the issues are shown below.
 
-|                            |
-| -------------------------- |
-| In game menu               |
-| Set keys option in settings|
-| Missing setting options    |
-
+* In game menu
+* Set keys option in settings
+* Missing setting options
+* Option to play the game again or to quit after race
+* Single player mode not working
 
 ✌️ Getting help
 ------------
