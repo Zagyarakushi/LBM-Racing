@@ -4,7 +4,6 @@
 </h1>
 
 <h4 align="center">A Low Budget Multiplayer Racing Game written in Java.</h4>
------------------
 
 Note: This project was originally pushed to Gitlab and as such, all issues, pull/merge requests and any other disucussion or changes should be made [here](https://gitlab.com/zagyarakushi/lbm-racing). (In case you are wondering, I have this mirrored on Github so people can follow the project even if they prefer Github. Also it acts as a backup.)
 
