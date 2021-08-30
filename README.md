@@ -27,7 +27,7 @@ Table of contents
 
 This repository consists of several java files, images and audio. Two of the java files are for server and the rest are for client. By downloading this repository and compiling the client and the server program, you will be able to play a racing game!
 
-![screenshot](https://)
+![screenshot](https://gitlab.com/zagyarakushi/lbm-racing)
 
 
 📖 Installation
@@ -83,6 +83,7 @@ java Client
 
 This project has many issues such as in game menu not working when pressing the escape key. There are parts of the code which is messy and not documented clearly. Some of the issues are shown in a table below.
 
+|                            |
 | -------------------------- |
 | In game menu               |
 | Set keys option in settings|
