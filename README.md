@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://gitlab.com/zagyarakushi/lbm-racing"><img src="https://gitlab.com/zagyarakushi/lbm-racing/-/blob/main/images/kartGreen/kartGreen3.png" alt="LBM Racing"></a>
+  <a href="https://gitlab.com/zagyarakushi/lbm-racing"><img src="https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/images/kartGreen/kartGreen3.png" alt="LBM Racing"></a>
 </h1>
 
 <h4 align="center">A Low Budget Multiplayer Racing written in Java.</h4>
