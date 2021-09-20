@@ -7,7 +7,7 @@
 
 Note: This project was originally pushed to Gitlab and as such, all issues, pull/merge requests and any other disucussion or changes should be made [here](https://gitlab.com/zagyarakushi/lbm-racing). (In case you are wondering, I have this mirrored on Github so people can follow the project even if they prefer Github. Also it acts as a backup.)
 
-[![License](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flat-square)]()
+![License](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flat-square)
 
 
 # Table of contents
@@ -27,7 +27,8 @@ Note: This project was originally pushed to Gitlab and as such, all issues, pull
 
 This repository consists of several java files, images and audio. Two of the java files are for server and the rest are for client. By downloading this repository and compiling the client and the server program, you will be able to play a racing game!
 
-![screenshot](https://gitlab.com/zagyarakushi/lbm-racing)
+![screenshot](https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/Screenshots/Menu.png)
+![screenshot](https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/Screenshots/InGame.png)
 
 
 # 📖 Installation
