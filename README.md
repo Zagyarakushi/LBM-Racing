@@ -1,108 +1,166 @@
-<h1 align="center">
-  <br>
-  <a href="https://gitlab.com/zagyarakushi/lbm-racing"><img src="https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/src/images/kartGreen/kartGreen3.png" alt="LBM Racing"></a>
-</h1>
+# LBM Racing
 
-<h4 align="center">A Low Budget Multiplayer Racing Game written in Java.</h4>
+A low-budget multiplayer racing game built from scratch in Java.
 
-Note: This project was originally pushed to Gitlab and as such, all issues, pull/merge requests and any other disucussion or changes should be made [here](https://gitlab.com/zagyarakushi/lbm-racing). (In case you are wondering, I have this mirrored on Github so people can follow the project even if they prefer Github. Also it acts as a backup.)
+The project explores game development fundamentals including client-server architecture, networking, game loops, input handling, and real-time multiplayer gameplay.
 
-![License](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flat-square)
+![LBM Racing](src/images/kartGreen/kartGreen3.png)
 
+---
 
-# Table of contents
------------------
+## 🎮 Gameplay
 
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Known issues and limitations](#known-issues-and-limitations)
-* [Getting help](#getting-help)
-* [Contributing](#contributing)
-* [License](#license)
+![Menu](Screenshots/Menu.png)
 
+![In Game](Screenshots/InGame.png)
 
-# ⚡ Introduction
-------------
+![Demo](Screenshots/gameplay.png)
 
-This repository consists of several java files, images and audio. Two of the java files are for server and the rest are for client. By downloading this repository and compiling the client and the server program, you will be able to play a racing game!
+---
 
-![screenshot](https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/Screenshots/Menu.png)
-![screenshot](https://gitlab.com/zagyarakushi/lbm-racing/-/raw/main/Screenshots/InGame.png)
+## ✨ Features
 
+- Multiplayer racing gameplay
+- Client-server networking architecture
+- Real-time player communication
+- Custom game assets
+- Keyboard input handling
+- Game state management system
 
-# 📖 Installation
-------------
+---
 
-You will need any version of java runtime environment and a java compiler. For example:
+## 🏗️ Architecture
 
-#### Fedora
-```bash
-dnf install java-latest-openjdk-devel
+The game uses a client-server model:
+
+```
+             Client
+               |
+               |
+        Network Connection
+               |
+               |
+             Server
+               |
+               |
+        Game State Management
 ```
 
-#### Void Linux
+The server manages the shared game state while clients handle player input and rendering.
+
+---
+
+## 🛠️ Technologies
+
+- Java
+- Java Networking
+- Java Graphics API
+
+---
+
+## 🚀 Installation
+
+### Requirements
+
+- Java Development Kit (JDK)
+
+Install Java:
+
+### Fedora
+
 ```bash
-xbps-install -S openjdk
+sudo dnf install java-latest-openjdk-devel
 ```
 
-#### Then clone the repository
+### Void Linux
+
 ```bash
-git clone https://gitlab.com/zagyarakushi/lgm-racing
+sudo xbps-install -S openjdk
 ```
 
+---
 
-# 📝 Usage
------
+## 📦 Clone Repository
 
-Now go to the directory of the game and compile the client and server.
-
-#### Compile the client
 ```bash
-javac Game.java
+git clone https://gitlab.com/zagyarakushi/lbm-racing.git
+
+cd lbm-racing
 ```
 
-#### Compile the server
+---
+
+## 🔨 Build
+
+Compile the server:
+
 ```bash
 javac Server.java
 ```
 
-Then run the Server first then the Client. The server must be running when the client tries to connect to the server. Which is when user clicks multiplayer from the menu.
+Compile the client:
 
-#### Run the server
+```bash
+javac Client.java
+```
+
+---
+
+## ▶️ Running
+
+Start the server first:
+
 ```bash
 java Server
 ```
 
-#### Run the client
+Then start the client:
+
 ```bash
 java Client
 ```
 
-# ⭐ Known issues and limitations
-----------------------------
+The client requires the server to be running before connecting.
 
-This project has many issues such as in game menu not working when pressing the escape key. There are parts of the code which is messy and not documented clearly. Some of the issues are shown below.
+---
 
-* In game menu
-* Set keys option in settings
-* Missing setting options
-* Option to play the game again or to quit after race
-* Single player mode not working
+## ⚠️ Known Issues
 
-# ✌️ Getting help
-------------
+This project is an early game development experiment and contains unfinished features.
 
-You can create an issue and I will try to help you as much as I can.
+Known limitations:
 
+- Some menus are incomplete
+- Settings functionality is limited
+- Single-player mode is unfinished
+- Code organisation and documentation could be improved
 
-# 🔔 Contributing
-------------
+---
 
-First read the code of conduct and contributing file. Then you can fork the repository, add your own stuff and create a pull/merge request.
+## 🔮 Future Improvements
 
+Potential improvements:
 
-# ⚠ License
--------
+- Improve physics system
+- Refactor game architecture
+- Add better multiplayer synchronisation
+- Add automated testing
+- Improve asset management
+- Add build automation
 
-MIT
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Make changes
+4. Submit a merge request
+
+---
+
+## 📄 License
+
+MIT License
