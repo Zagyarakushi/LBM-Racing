@@ -53,8 +53,10 @@ The server manages the shared game state while clients handle player input and r
 ## 🛠️ Technologies
 
 - Java
+- Javax Sound
+- Javax Swing (Graphics)
+- Java AWT (graphics)
 - Java Networking
-- Java Graphics API
 
 ---
 
